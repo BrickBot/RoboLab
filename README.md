@@ -19,7 +19,7 @@ This standalone version of RoboLab does _not_ support the USB IR Tower.  The las
 
 RoboLab for LabVIEW
 -------------------
-RoboLab for LabVIEW is an add-on for LabVIEW that enables you to run the classic and much loved RoboLab within an installation of LabVIEW.  As such, this is not a standalone product, so an edition of LabVIEW (either LabVIEW itself or a more specialized edition such as LabVIEW for LEGO MindStorms [LVLM] or LabVIEW for Education [LV4E]) is required.
+RoboLab for LabVIEW is an add-on for LabVIEW that enables you to run the classic and much loved RoboLab within an installation of LabVIEW.  As such, this is not a standalone product, so an edition of LabVIEW (either LabVIEW itself or a more specialized edition such as LabVIEW for LEGO MindStorms [[LVLM](https://web.archive.org/web/20200222200939/http://www.ni.com/download/labview-for-lego-mindstorms-2012-sp1/3877/en/)] or LabVIEW for Education [LV4E]) is required.
 
 ### Overview
 LabVIEW for LEGO® MINDSTORMS® is optimized for classroom use with instructional videos, tutorials and teaching resources created exclusively for high school students and teachers using LEGO MINDSTORMS Education and TETRIX by Pitsco. It introduces students to advanced concepts such as autonomous robotics and scientific measurements using real-world examples and replacing obscure syntax with an intuitive graphical interface. Because of this, the software is ideal for teachers seeking to engage students with technology in a fun, hands-on way.
