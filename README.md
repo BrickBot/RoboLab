@@ -12,7 +12,7 @@ This standalone version of RoboLab does _not_ support the USB IR Tower.  The las
 
 <!--
 #### Archived Releases
-* [RoboLab 2.5](https://archive.org/details/ROBOLAB2.5) 
+* [RoboLab 2.5 with PDF guides](https://archive.org/details/ROBOLAB2.5) 
 * [RoboLab 2.9](https://archive.org/details/robolab-29)
 * [BrickLink Description and Images](https://www.bricklink.com/v2/catalog/catalogitem.page?G=2000069)
 -->
