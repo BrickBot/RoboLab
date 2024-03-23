@@ -71,5 +71,6 @@ To run RoboLab, go to the Tools menu and select Robolab 2.9.4d
 
 
 ### Resources
+* [RoboLab Quick Guide](http://legoengineering.com/robolab-quick-guide/)
 * [Downloads for RoboLab](http://legoengineering.com/category/support/downloads/)
 * [Forum for LabVIEW for LEGO MindStorms and LabVIEW for Education](https://forums.ni.com/t5/LabVIEW-for-LEGO-MINDSTORMS-and/bd-p/460)
