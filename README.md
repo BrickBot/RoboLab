@@ -10,6 +10,12 @@ RoboLab (standalone)
 
 This standalone version of RoboLab does _not_ support the USB IR Tower.  The last official version was 2.9.4c, and for users with the version 2.9 installation, there is also a [patch avaiable](http://legoengineering.com/robolab-2-9-4c-patch/).
 
+<!--
+#### Archived Releases
+* [RoboLab 2.5](https://archive.org/details/ROBOLAB2.5) 
+* [RoboLab 2.9](https://archive.org/details/robolab-29)
+* [BrickLink Description and Images](https://www.bricklink.com/v2/catalog/catalogitem.page?G=2000069)
+-->
 
 RoboLab for LabVIEW
 -------------------
@@ -71,6 +77,8 @@ To run RoboLab, go to the Tools menu and select Robolab 2.9.4d
 
 
 ### Resources
-* [RoboLab Quick Guide](http://legoengineering.com/robolab-quick-guide/)
-* [Downloads for RoboLab](http://legoengineering.com/category/support/downloads/)
+* LEGO Engineering
+  + [RoboLab Quick Guide](http://legoengineering.com/robolab-quick-guide/)
+  + [Downloads for RoboLab](http://legoengineering.com/category/support/downloads/)
+  + [RCX Content, including LabVIEW support, Challenge Ideas, and Learning Information](http://legoengineering.com/platform/rcx/)
 * [Forum for LabVIEW for LEGO MindStorms and LabVIEW for Education](https://forums.ni.com/t5/LabVIEW-for-LEGO-MINDSTORMS-and/bd-p/460)
