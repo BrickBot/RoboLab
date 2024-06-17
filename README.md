@@ -56,9 +56,9 @@ Installation instructions are based on the [RoboLab for LabVIEW](http://legoengi
 3. Install LEGO MindStorms Module for LabVIEW version 2014 SP1 Patch (_if applicable for your LabVIEW version_)
 4. Install RoboLab for LabViEW
    1. Unzip __ONLY__ the RoboLab installer RL_installer.vi_.zip to extract the file RL_installer.vi
-   2. Ensure that both the installer and the add-on zip file are in the same folder (the installer will unzip the zip file)
+   2. Ensure that both the installer (`ROBOLAB_installer.vi`) and the add-on zip file (`RoboLabPC.zip` or `RoboLabMac.zip`, as appropriate) are in the same folder (the installer will unzip the zip file)
    3. Open the installer in LabVIEW
-   4. Work through the installation steps
+   4. Work through the installation steps in LabVIEW
       - Should start running automatically
       - Might take a while as it must recompile everything
    5. Close all windows and exit LabVIEW
