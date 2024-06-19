@@ -53,6 +53,7 @@ __NOTE__: _The combined size of these downloads is just over 8¼ GB_.
 
 ### Installation
 Installation instructions are based on the [RoboLab for LabVIEW](http://legoengineering.com/robolab-for-labview/) and [RCX USB Tower Support](http://legoengineering.com/rcx-usb-tower-support/) guides from LEGO Engineering.
+Unfortunately, [the LEGO MindStorms modules for LabVIEW are incompatible with LabVIEW 2017 or newer](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z000000P80ySAC&l=en-US).
 1. Install LabVIEW for Education version 2014 SP1 (_if no existing, compatible LabVIEW install_)
 2. Install LEGO MindStorms Module for LabVIEW version 2014 SP1 (_or your compatible LabVIEW version_)
 3. Install LEGO MindStorms Module for LabVIEW version 2014 SP1 Patch (_if applicable for your LabVIEW version_)
