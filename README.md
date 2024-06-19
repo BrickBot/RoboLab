@@ -43,8 +43,10 @@ __NOTE__: _The combined size of these downloads is just over 8¼ GB_.
   2. Download [LEGO MindStorms Module for LabVIEW version 2014 SP1 Patch](https://www.ni.com/en/support/downloads/software-products/download.lego-mindstorms-module-for-labview.html#351217)
   3. Download [LEGO MindStorms Module for LabVIEW version 2014 SP1](https://download.ni.com/support/softlib/labview/labview_toolkits/NXT%20Module/2014%20SP1/windows/2014%20SP1%20Eng.zip)
   4. Download RoboLab for LabVIEW files from Lego Engineering (c.f. [overview page](http://legoengineering.com/robolab-for-labview/)):
-     1. [LEGO Engineering’s RoboLabPC](https://web.archive.org/web/20210926164643/http://legoengineering.com/wp-content/uploads/2013/04/RoboLabPC.zip)
-        - NOTE: The link above to download via archive.org must be used, as the version of this file that now downloads from LegoEngineering.com is corrupt and will not open.
+     1. Select the appropriate download for your operating system
+        - NOTE: The links below download via archive.org, as the versions of these files that now download from LegoEngineering.com are corrupt and will not open.
+        -  Windows PC: [LEGO Engineering’s RoboLabPC](https://web.archive.org/web/20210926164643/http://legoengineering.com/wp-content/uploads/2013/04/RoboLabPC.zip)
+        -  Mac OS: [LEGO Engineering’s RoboLabMac](https://web.archive.org/web/20210926164628/http://legoengineering.com/wp-content/uploads/2013/04/RoboLabMac.zip)
      2. [LEGO Engineering’s RoboLab Installer](http://legoengineering.com/wp-content/uploads/2013/04/ROBOLAB_installer.vi_.zip)
   5. Download [NI-VISA version 14.0.1 Full edition](https://www.ni.com/en/support/downloads/drivers/download.ni-visa.html#306025)
      + [Release Notes](https://www.ni.com/en/support/documentation/release-notes/product.ni-visa.html#version-14-0-1)
@@ -58,12 +60,16 @@ Installation instructions are based on the [RoboLab for LabVIEW](http://legoengi
    1. Unzip __ONLY__ the RoboLab installer RL_installer.vi_.zip to extract the file RL_installer.vi
    2. Ensure that both the installer (`ROBOLAB_installer.vi`) and the add-on zip file (`RoboLabPC.zip` or `RoboLabMac.zip`, as appropriate) are in the same folder (the installer will unzip the zip file)
    3. Open the installer in LabVIEW
+      - If LabVIEW is installed, it should have created a file association for *.vi files
+      - If the file association exists, verify that the RoboLab add-on zip file is in the same folder as the *.vi file, and then just open the file directly (e.g. double click on the file)
    4. Work through the installation steps in LabVIEW
       - Should start running automatically
       - Might take a while as it must recompile everything
    5. Close all windows and exit LabVIEW
-5. Install NI-VISA
-6. Setup the USB IR Tower for use on a 64-bit OS (if applicable)
+5. Install NI-VISA, ensuring the following features are selected for install:
+   + Configuration Support > PXI Configuration
+   + Development Support > Driver Development
+6. Setup the USB IR Tower for use on a 64-bit OS (if applicable), following the [LEGO Engineering guide](http://legoengineering.com/rcx-usb-tower-support/):
    1. Plug in the LEGO USB IR Tower
    2. Launch the NI-VISA Driver Wizard (typically found under Start > VISA > NI-VISA Driver Wizard)
    3. Under “Hardware Bus” in the window that opens, select “USB”
@@ -71,14 +77,16 @@ Installation instructions are based on the [RoboLab for LabVIEW](http://legoengi
    5. Give the INF files a name (default is fine)
    6. Select to allow the wizard to “Install the generated files on this computer”
    7. Click “Finish”
-   8. Close all windows and exit LabVIEW
+   8. Close all windows and exit all LabVIEW instances
 
+### Running
 To run RoboLab, go to the Tools menu and select Robolab 2.9.4d
 
 
-### Resources
+## Resources
 * LEGO Engineering
   + [RoboLab Quick Guide](http://legoengineering.com/robolab-quick-guide/)
+  + [RCX USB Tower Support](http://legoengineering.com/rcx-usb-tower-support/)
   + [Downloads for RoboLab](http://legoengineering.com/category/support/downloads/)
   + [RCX Content, including LabVIEW support, Challenge Ideas, and Learning Information](http://legoengineering.com/platform/rcx/)
 * [Forum for LabVIEW for LEGO MindStorms and LabVIEW for Education](https://forums.ni.com/t5/LabVIEW-for-LEGO-MINDSTORMS-and/bd-p/460)
